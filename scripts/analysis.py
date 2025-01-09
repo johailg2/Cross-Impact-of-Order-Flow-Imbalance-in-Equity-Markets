@@ -45,20 +45,23 @@ def cross_impact_analysis(data):
 
     return impact_matrix
 
-def predict_price_change_with_lasso(aggregated_df, target_instrument, predictor_col, target_col, cv=5, random_state=0):
+def regression_cross_impact(returns_series, ofis, mapping_dict):
     """
-    Predicts price change of a target instrument using LASSO regression.
+    Perform OLS regression on one stocks returns using other stock's ofis
     """
-    ofi_pivot = aggregated_df.pivot(index='minute', columns='instrument_id', values=predictor_col)
+    ofis.rename(columns=mapping_dict, inplace=True)
+    
+    df = ofis.copy()
+    df['log_return'] = returns_series
+    
+    df = df.dropna(subset=['log_return'])
+    
+    df = df.replace([np.inf, -np.inf], np.nan).dropna()
+    
+    X = sm.add_constant(df[ofis.columns])
+    y = df['log_return']
+    
+    model = sm.OLS(y, X).fit()
+    return model
 
-    target_data = aggregated_df.loc[aggregated_df['instrument_id'] == target_instrument, ['minute', target_col]]
-    data_merged = ofi_pivot.join(target_data.set_index('minute'), how='inner').dropna()
-
-    X, y = data_merged.drop(columns=target_col), data_merged[target_col]
-
-    lasso = LassoCV(cv=cv, random_state=random_state).fit(X, y)
-
-    coef = pd.Series(lasso.coef_, index=X.columns)[lambda x: x != 0]
-
-    return coef, lasso.intercept_, lasso.score(X, y)
 
