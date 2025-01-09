@@ -1,6 +1,6 @@
 # Cross-Impact-of-Order-Flow-Imbalance-in-Equity-Markets
 
-This repository contains the implementation of a cross-impact analysis of Order Flow Imbalance (OFI) in equity markets. The goal is to compute OFI metrics, analyze cross-asset impacts on short-term price changes, and evaluate the predictive power of lagged OFI. This project follows the methodologies presented in the research paper "Cross-Impact of Order Flow Imbalance in Equity Markets."
+This repository contains the implementation of a cross-impact analysis of Order Flow Imbalance (OFI) in equity markets. The goal is to compute OFI metrics, analyze cross-asset impacts on short-term price changes, and evaluate the predictive power of lagged OFI. This project follows the methodologies presented in the research paper "Cross-Impact of Order Flow Imbalance in Equity Markets." Data was acquired via a batch download using the Databento API. More information can be found here: https://databento.com/docs/api-reference-historical/batch?historical=python&live=python&reference=python
 
 This project involves:
 
