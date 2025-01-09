@@ -1,0 +1,150 @@
+Cross Impact Model CI[I] for AAPL:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.854
+Model:                            OLS   Adj. R-squared:                  0.852
+Method:                 Least Squares   F-statistic:                     442.5
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):          9.55e-156
+Time:                        13:17:37   Log-Likelihood:                 2540.9
+No. Observations:                 385   AIC:                            -5070.
+Df Residuals:                     379   BIC:                            -5046.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.327e-05   1.73e-05      1.343      0.180   -1.08e-05    5.74e-05
+AAPL        7.243e-06   1.96e-07     36.923      0.000    6.86e-06    7.63e-06
+AMGN        1.013e-07   5.51e-07      0.184      0.854   -9.82e-07    1.18e-06
+JPM         1.168e-06   6.24e-07      1.871      0.062   -5.96e-08     2.4e-06
+TSLA        4.811e-07   1.13e-07      4.262      0.000    2.59e-07    7.03e-07
+XOM         1.795e-06   4.96e-07      3.617      0.000    8.19e-07    2.77e-06
+==============================================================================
+Omnibus:                       64.354   Durbin-Watson:                   2.144
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              314.492
+Skew:                          -0.591   Prob(JB):                     5.12e-69
+Kurtosis:                       7.267   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Cross Impact Model CI[I] for AMGN:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.598
+Model:                            OLS   Adj. R-squared:                  0.593
+Method:                 Least Squares   F-statistic:                     112.9
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):           8.16e-73
+Time:                        13:17:37   Log-Likelihood:                 2393.8
+No. Observations:                 385   AIC:                            -4776.
+Df Residuals:                     379   BIC:                            -4752.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.099e-05   2.54e-05      0.826      0.409   -2.89e-05    7.09e-05
+AAPL        -3.14e-06   2.87e-07    -10.924      0.000    -3.7e-06   -2.57e-06
+AMGN        1.523e-05   8.07e-07     18.878      0.000    1.36e-05    1.68e-05
+JPM         6.032e-06   9.15e-07      6.596      0.000    4.23e-06    7.83e-06
+TSLA        7.194e-07   1.65e-07      4.350      0.000    3.94e-07    1.04e-06
+XOM        -2.727e-06   7.27e-07     -3.751      0.000   -4.16e-06    -1.3e-06
+==============================================================================
+Omnibus:                      297.401   Durbin-Watson:                   1.501
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            22005.550
+Skew:                          -2.565   Prob(JB):                         0.00
+Kurtosis:                      39.681   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Cross Impact Model CI[I] for JPM:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.619
+Model:                            OLS   Adj. R-squared:                  0.614
+Method:                 Least Squares   F-statistic:                     123.2
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):           3.64e-77
+Time:                        13:17:37   Log-Likelihood:                 2417.5
+No. Observations:                 385   AIC:                            -4823.
+Df Residuals:                     379   BIC:                            -4799.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       5.093e-05   2.39e-05      2.133      0.034    3.97e-06    9.79e-05
+AAPL       -1.298e-06    2.7e-07     -4.804      0.000   -1.83e-06   -7.67e-07
+AMGN         3.04e-06   7.59e-07      4.007      0.000    1.55e-06    4.53e-06
+JPM         1.743e-05    8.6e-07     20.271      0.000    1.57e-05    1.91e-05
+TSLA        5.207e-07   1.56e-07      3.348      0.001    2.15e-07    8.26e-07
+XOM        -6.968e-07   6.84e-07     -1.019      0.309   -2.04e-06    6.48e-07
+==============================================================================
+Omnibus:                      159.381   Durbin-Watson:                   1.308
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9322.793
+Skew:                          -0.879   Prob(JB):                         0.00
+Kurtosis:                      27.043   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Cross Impact Model CI[I] for TSLA:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.697
+Model:                            OLS   Adj. R-squared:                  0.693
+Method:                 Least Squares   F-statistic:                     174.0
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):           8.15e-96
+Time:                        13:17:37   Log-Likelihood:                 2181.3
+No. Observations:                 385   AIC:                            -4351.
+Df Residuals:                     379   BIC:                            -4327.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0002   4.41e-05      3.420      0.001    6.41e-05       0.000
+AAPL        3.118e-06   4.99e-07      6.248      0.000    2.14e-06     4.1e-06
+AMGN        -1.69e-06    1.4e-06     -1.206      0.229   -4.45e-06    1.07e-06
+JPM         4.128e-06   1.59e-06      2.599      0.010    1.01e-06    7.25e-06
+TSLA          5.8e-06   2.87e-07     20.196      0.000    5.24e-06    6.37e-06
+XOM         2.664e-06   1.26e-06      2.110      0.036    1.82e-07    5.15e-06
+==============================================================================
+Omnibus:                       39.264   Durbin-Watson:                   1.905
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              116.931
+Skew:                           0.437   Prob(JB):                     4.06e-26
+Kurtosis:                       5.555   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Cross Impact Model CI[I] for XOM:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.739
+Model:                            OLS   Adj. R-squared:                  0.736
+Method:                 Least Squares   F-statistic:                     214.7
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):          3.46e-108
+Time:                        13:17:37   Log-Likelihood:                 2555.5
+No. Observations:                 385   AIC:                            -5099.
+Df Residuals:                     379   BIC:                            -5075.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -2.796e-05   1.67e-05     -1.675      0.095   -6.08e-05    4.85e-06
+AAPL       -2.736e-07   1.89e-07     -1.448      0.148   -6.45e-07    9.78e-08
+AMGN        1.225e-06    5.3e-07      2.310      0.021    1.82e-07    2.27e-06
+JPM         1.967e-06   6.01e-07      3.273      0.001    7.85e-07    3.15e-06
+TSLA       -9.422e-08   1.09e-07     -0.867      0.386   -3.08e-07    1.19e-07
+XOM         1.461e-05   4.78e-07     30.568      0.000    1.37e-05    1.55e-05
+==============================================================================
+Omnibus:                       90.911   Durbin-Watson:                   1.964
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              749.416
+Skew:                          -0.731   Prob(JB):                    1.85e-163
+Kurtosis:                       9.677   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

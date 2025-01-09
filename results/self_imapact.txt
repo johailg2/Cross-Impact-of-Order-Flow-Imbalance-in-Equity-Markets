@@ -1,0 +1,130 @@
+Contemporaneous Model for Log Returns for AAPL:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.788
+Model:                            OLS   Adj. R-squared:                  0.787
+Method:                 Least Squares   F-statistic:                     2239.
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):          3.73e-205
+Time:                        13:20:18   Log-Likelihood:                 3991.0
+No. Observations:                 605   AIC:                            -7978.
+Df Residuals:                     603   BIC:                            -7969.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       6.607e-06   1.35e-05      0.491      0.624   -1.98e-05     3.3e-05
+ofi_pca     7.946e-06   1.68e-07     47.316      0.000    7.62e-06    8.28e-06
+==============================================================================
+Omnibus:                      135.853   Durbin-Watson:                   2.216
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              922.636
+Skew:                          -0.804   Prob(JB):                    4.49e-201
+Kurtosis:                       8.832   Cond. No.                         80.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Contemporaneous Model for Log Returns for AMGN:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.379
+Model:                            OLS   Adj. R-squared:                  0.377
+Method:                 Least Squares   F-statistic:                     237.1
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):           4.06e-42
+Time:                        13:20:18   Log-Likelihood:                 2339.6
+No. Observations:                 391   AIC:                            -4675.
+Df Residuals:                     389   BIC:                            -4667.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -2.796e-05   3.09e-05     -0.904      0.367   -8.88e-05    3.28e-05
+ofi_pca     1.504e-05   9.77e-07     15.399      0.000    1.31e-05     1.7e-05
+==============================================================================
+Omnibus:                      680.862   Durbin-Watson:                   2.020
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           432504.260
+Skew:                         -10.060   Prob(JB):                         0.00
+Kurtosis:                     164.687   Cond. No.                         31.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Contemporaneous Model for Log Returns for JPM:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.536
+Model:                            OLS   Adj. R-squared:                  0.535
+Method:                 Least Squares   F-statistic:                     461.2
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):           1.50e-68
+Time:                        13:20:18   Log-Likelihood:                 2469.5
+No. Observations:                 401   AIC:                            -4935.
+Df Residuals:                     399   BIC:                            -4927.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       4.504e-05   2.59e-05      1.741      0.082   -5.82e-06    9.59e-05
+ofi_pca     1.786e-05   8.32e-07     21.476      0.000    1.62e-05    1.95e-05
+==============================================================================
+Omnibus:                      322.844   Durbin-Watson:                   2.161
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            40894.220
+Skew:                          -2.585   Prob(JB):                         0.00
+Kurtosis:                      52.202   Cond. No.                         31.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Contemporaneous Model for Log Returns for TSLA:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.588
+Model:                            OLS   Adj. R-squared:                  0.587
+Method:                 Least Squares   F-statistic:                     906.6
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):          1.79e-124
+Time:                        13:20:18   Log-Likelihood:                 3633.5
+No. Observations:                 638   AIC:                            -7263.
+Df Residuals:                     636   BIC:                            -7254.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001   3.26e-05      3.593      0.000    5.31e-05       0.000
+ofi_pca     6.979e-06   2.32e-07     30.109      0.000    6.52e-06    7.43e-06
+==============================================================================
+Omnibus:                       92.150   Durbin-Watson:                   2.015
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              461.412
+Skew:                           0.526   Prob(JB):                    6.39e-101
+Kurtosis:                       7.031   Cond. No.                         142.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Contemporaneous Model for Log Returns for XOM:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_return   R-squared:                       0.489
+Model:                            OLS   Adj. R-squared:                  0.488
+Method:                 Least Squares   F-statistic:                     395.7
+Date:                Thu, 09 Jan 2025   Prob (F-statistic):           3.02e-62
+Time:                        13:20:18   Log-Likelihood:                 2537.8
+No. Observations:                 415   AIC:                            -5072.
+Df Residuals:                     413   BIC:                            -5064.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -2.486e-05   2.63e-05     -0.944      0.346   -7.66e-05    2.69e-05
+ofi_pca     1.499e-05   7.54e-07     19.893      0.000    1.35e-05    1.65e-05
+==============================================================================
+Omnibus:                      251.791   Durbin-Watson:                   2.267
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            24062.586
+Skew:                           1.652   Prob(JB):                         0.00
+Kurtosis:                      40.157   Cond. No.                         35.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
